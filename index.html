@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA HUB</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="welcome_message">
+        Welcome to CGPA HUB
+    </div>
+    <div class="main">
+        <div class="main_dropdown_prompt">
+            I want to: 
+            <select 
+            name="todoprompt" 
+            id="todoprompt">
+                <option value="GPA">Calculate GPA(Grade point Average)</option>
+                <option value="CGPA">Calculate CGPA(Comulative GPA)</option>
+                <option value="ADGPA">Know the grades to get a particular GPA</option>
+                <option value="ADCGPA">Know the GPA to get a particular CGPA</option>
+            </select>
+        </div>
+        <div class="gpa">
+            <div class="gpa_courses_prompt">
+                <span>
+                    How many courses did you do
+                </span>
+                <form id="gpa_courses_form">
+                    <input id="gpa_courses_input" type="number" name="courses_input" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="gpa_information_prompt">
+                
+            </div>
+        </div>
+        <div class="cgpa none">
+            <div class="gpa_courses_prompt">
+                <span>
+                    How many courses did you do cgpa
+                </span>
+                <form>
+                    <input type="number" name="courses_input" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="gpa_information_prompt">
+                <div class="gpa_information_prompt_titles">
+
+                    <div class="gpa_information_prompt_title">
+                        Courses
+                    </div>
+                    <div class="gpa_information_prompt_title">
+                        Units
+                    </div>
+                    <div class="gpa_information_prompt_title">
+                        Grades
+                    </div>
+                </div>
+                <div class="gpa_information_prompt_boxes">
+                    <div class="gpa_information_prompt_course">
+                        <input type="text" id="course1" />
+                    </div>
+                    <div class="gpa_information_prompt_unit">
+                        <input type="text" id="unit1" />
+                    </div>
+                    <div class="gpa_information_prompt_grade">
+                        <input type="text" id="grade1" />
+                    </div>
+                </div>
+                <div class="gpa_information_prompt_boxes">
+                    <div class="gpa_information_prompt_course">
+                        <input type="text" id="course1" />
+                    </div>
+                    <div class="gpa_information_prompt_unit">
+                        <input type="text" id="unit1" />
+                    </div>
+                    <div class="gpa_information_prompt_grade">
+                        <input type="text" id="grade1" />
+                    </div>
+                </div>
+            </div>
+            <div class="cgpa_result">
+                <div class="gpa_result_comment">
+                    <span id="charger">Excellent! </span>
+                    Your GPA is <span id="gpa_number">4.55</span>
+                </div>
+            </div>
+        </div>
+        <div class="adgpa none">
+            <div class="gpa_courses_prompt">
+                <span>
+                    How many courses did you do adgpa
+                </span>
+                <form>
+                    <input type="number" name="courses_input" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="gpa_information_prompt">
+                <div class="gpa_information_prompt_titles">
+                    <div class="gpa_information_prompt_title">
+                        Courses
+                    </div>
+                    <div class="gpa_information_prompt_title">
+                        Units
+                    </div>
+                    <div class="gpa_information_prompt_title">
+                        Grades
+                    </div>
+                </div>
+                <div class="gpa_information_prompt_boxes">
+                    <div class="gpa_information_prompt_course">
+                        <input type="text" id="course1" />
+                    </div>
+                    <div class="gpa_information_prompt_unit">
+                        <input type="text" id="unit1" />
+                    </div>
+                    <div class="gpa_information_prompt_grade">
+                        <input type="text" id="grade1" />
+                    </div>
+                </div>
+                <div class="gpa_information_prompt_boxes">
+                    <div class="gpa_information_prompt_course">
+                        <input type="text" id="course1" />
+                    </div>
+                    <div class="gpa_information_prompt_unit">
+                        <input type="text" id="unit1" />
+                    </div>
+                    <div class="gpa_information_prompt_grade">
+                        <input type="text" id="grade1" />
+                    </div>
+                </div>
+            </div>
+            <div class="adgpa_result">
+                <div class="gpa_result_comment">
+                    <span id="charger">Excellent! </span>
+                    Your GPA is <span id="gpa_number">4.55</span>
+                </div>
+            </div>
+        </div>
+        <div class="adcgpa none">
+            <div class="gpa_courses_prompt">
+                <span>
+                    How many courses did you do adcgpa
+                </span>
+                <form>
+                    <input type="number" name="courses_input" />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="gpa_information_prompt">
+                <div class="gpa_information_prompt_titles">
+
+                    <div class="gpa_information_prompt_title">
+                        Courses
+                    </div>
+                    <div class="gpa_information_prompt_title">
+                        Units
+                    </div>
+                    <div class="gpa_information_prompt_title">
+                        Grades
+                    </div>
+                </div>
+                <div class="gpa_information_prompt_boxes">
+                    <div class="gpa_information_prompt_course">
+                        <input type="text" id="course1" />
+                    </div>
+                    <div class="gpa_information_prompt_unit">
+                        <input type="text" id="unit1" />
+                    </div>
+                    <div class="gpa_information_prompt_grade">
+                        <input type="text" id="grade1" />
+                    </div>
+                </div>
+                <div class="gpa_information_prompt_boxes">
+                    <div class="gpa_information_prompt_course">
+                        <input type="text" id="course1" />
+                    </div>
+                    <div class="gpa_information_prompt_unit">
+                        <input type="text" id="unit1" />
+                    </div>
+                    <div class="gpa_information_prompt_grade">
+                        <input type="text" id="grade1" />
+                    </div>
+                </div>
+            </div>
+            <div class="adcgpa_result">
+                <div class="gpa_result_comment">
+                    <span id="charger">Excellent! </span>
+                    Your GPA is <span id="gpa_number">4.55</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

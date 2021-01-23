@@ -1,0 +1,125 @@
+
+
+html{
+    background-color: rgb(245, 240, 235);
+}
+
+body{
+    margin:auto;
+    width:90%;
+    min-width: 250px;
+    margin-top: 5vh;
+    max-width:600px;
+    background-color: #fff;
+    padding:20px;
+
+}
+
+.welcome_message{
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 1.5rem;
+    color:red;
+    font-weight:600;
+}
+
+.main_dropdown_prompt{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main_dropdown_prompt >select{
+    border:none;
+    outline:none;
+    border-bottom:1px solid red;
+    padding:10px;
+    font-size: 1.3rem;
+    color:red
+}
+
+.gpa{
+    transition:all .5s;
+    display: block;
+    top:none;
+    margin-top: 0px;
+}
+
+.gpa_courses_prompt{
+    padding-top:2vh;
+    padding-bottom: 2vh;
+}
+
+.gpa_courses_prompt > form{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.gpa_courses_prompt form  > input{
+    margin-left: 10px;
+    outline:none;
+    width:50px;
+    border:none;
+    border-bottom: 1px solid red;
+}
+
+.gpa_courses_prompt form > button{
+    color:white;
+    outline: none;
+    border:none;
+    background-color: red;
+}
+
+.gpa_information_prompt{
+    max-width: 500px;
+    margin:10px auto;
+    margin-bottom: 20px;
+}
+
+.gpa_information_prompt_titles{
+    padding:5px;
+}
+
+.gpa_information_prompt_titles, .gpa_information_prompt_boxes,.gpa_information_prompt_submit{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.gpa_information_prompt_boxes  input{
+    min-width: 60px;
+    max-width: 100px;
+    outline:none;
+    width:50px;
+    border:none;
+    border-bottom: 1px solid red;
+}
+
+.gpa_information_prompt_course{
+    width:70px;
+    max-width: 120px;
+}
+
+.gpa_result_comment{
+    margin:10px auto;
+    font-weight: 400;
+    text-align: center;
+}
+
+#charger{
+    font-size: 1.2rem;
+}
+
+#gpa_number{
+    font-size:1.3rem;
+    color:red;
+}
+
+.none{
+    position:absolute;
+    display:none;
+    top:-5000px;
+    margin-top: -5000px;
+}
